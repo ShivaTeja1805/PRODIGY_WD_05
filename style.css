@@ -152,7 +152,7 @@ body{
 /* ---------------MEDIA QUERIES-------------------------- */
 @media (max-width:450px){
     body{
-        height: 100svh;
+        height: 100vh;
         /* align-items: normal; */
     }
     .title{
