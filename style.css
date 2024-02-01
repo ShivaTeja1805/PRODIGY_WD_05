@@ -106,7 +106,7 @@ body{
 .details .col .humidity-img{
     height: 6vmin;
     width: 6vmin;
-    background-image: url(/Images/humidity.png);
+    background-image: url(https://github.com/ShivaTeja1805/PRODIGY_WD_05/blob/main/Images/humidity.png);
     background-position: center;
     background-size: cover;
     margin: 0 2vmin 0 0;
@@ -120,7 +120,7 @@ body{
 .details .col .wind-img{
     height: 6vmin;
     width: 6vmin;
-    background-image: url(/Images/wind.png);
+    background-image: url(https://github.com/ShivaTeja1805/PRODIGY_WD_05/blob/main/Images/wind.png);
     background-position: center;
     background-size: cover;
     margin: 0 2vmin 0 0;
