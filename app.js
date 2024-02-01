@@ -11,6 +11,7 @@ let weather = document.querySelector(".weather");
 let details = document.querySelector(".details");
 let card = document.querySelector(".card");
 let text = document.querySelector(".text");
+let condition = document.querySelector(".condition")
 
 // let apikey = "b3abb7cf8c84cc1145cad8f70048c49e";
 // let url = "https://api.openweathermap.org/data/2.5/weather?q=&appid="
@@ -18,10 +19,10 @@ let text = document.querySelector(".text");
 
 const checkweather = ((city)=>{
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b3abb7cf8c84cc1145cad8f70048c49e&units=metric`).then(res=>res.json()).then(data=>{
-        console.log(status)
         console.log(data)
         console.log(data.weather[0].main)
         cityname.innerText =  data.name;
+        condition.innerText=`- ${data.weather[0].main}`
         temp.innerText =  `${Math.round(data.main.temp)}°C`;
         humidity.innerText=`${data.main.humidity}%`;
         windspeed.innerText=`${data.wind.speed}km/h`;

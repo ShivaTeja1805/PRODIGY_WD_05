@@ -123,7 +123,7 @@ body{
     background-image: url(wind.png);
     background-position: center;
     background-size: cover;
-    margin: 0 2vmin 0 0;
+    margin: 0 2vmin 1vmin 0;
     /* background-color: blue; */
 }
 .w-data{
