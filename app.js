@@ -26,22 +26,22 @@ const checkweather = ((city)=>{
         humidity.innerText=`${data.main.humidity}%`;
         windspeed.innerText=`${data.wind.speed}km/h`;
         if(data.weather[0].main === "Clear"){
-            weatherimg.style.backgroundImage = "url(https://github.com/ShivaTeja1805/PRODIGY_WD_05/blob/main/Images/clear.png)";
+            weatherimg.style.backgroundImage = "url(clear.png)";
         }
         else if(data.weather[0].main === "Clouds"){
-            weatherimg.style.backgroundImage = "url(https://github.com/ShivaTeja1805/PRODIGY_WD_05/blob/main/Images/clouds.png)";
+            weatherimg.style.backgroundImage = "url(clouds.png)";
         }
         else if(data.weather[0].main === "Drizzle"){
-            weatherimg.style.backgroundImage = "url(https://github.com/ShivaTeja1805/PRODIGY_WD_05/blob/main/Images/drizzle.png)";
+            weatherimg.style.backgroundImage = "url(drizzle.png)";
         }
         else if(data.weather[0].main === "Mist"){
-            weatherimg.style.backgroundImage = "url(https://github.com/ShivaTeja1805/PRODIGY_WD_05/blob/main/Images/mist.png)";
+            weatherimg.style.backgroundImage = "url(mist.png)";
         }
         else if(data.weather[0].main === "Rain"){
-            weatherimg.style.backgroundImage = "url(https://github.com/ShivaTeja1805/PRODIGY_WD_05/blob/main/Images/rain.png)";
+            weatherimg.style.backgroundImage = "url(rain.png)";
         }
         else if(data.weather[0].main === "Snow"){
-            weatherimg.style.backgroundImage = "url(https://github.com/ShivaTeja1805/PRODIGY_WD_05/blob/main/Images/snow.png)";
+            weatherimg.style.backgroundImage = "url(snow.png)";
         } 
 
     })
