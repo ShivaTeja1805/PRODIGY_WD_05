@@ -153,8 +153,17 @@ body{
 @media (max-width:450px){
     body{
         height: 100svh;
-        align-items: normal;
-        padding-top: 5vmax;
+        /* align-items: normal; */
+    }
+    .title{
+        padding-top: 3vmax;
+    }
+    .title h1{
+        font-size: 5vmax;
+    }
+    .title .text{
+        font-size: 2vmax;
+        padding-top: 1vmax;
     }
     .card{
         width: 100%;
