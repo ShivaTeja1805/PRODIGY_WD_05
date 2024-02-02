@@ -213,7 +213,7 @@ body{
         width: 100%;
         justify-content: space-between;
         padding: 0 4vmax;
-        margin-bottom: 8vmax;
+        margin-top: 4vmax;
     }
     .details .col .humidity-img{
         height: 6vmax;
